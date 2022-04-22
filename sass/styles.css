@@ -2,6 +2,8 @@ body {
   background-image: url("/drumImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .KeyDrum {

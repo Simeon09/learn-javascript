@@ -2,6 +2,8 @@ body{
     background-image: url('/drumImage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
+    
     
 }
 
@@ -12,6 +14,7 @@ body{
     align-items: center;
     margin: auto;
     padding: 0px 100px;
+    
 }
 .key{
     border: 2px solid black;
