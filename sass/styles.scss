@@ -1,0 +1,24 @@
+.KeyDrum{
+    display: flex;
+    justify-content:space-between;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+    padding: 0px 100px;
+}
+.key{
+    border: 2px solid black;
+ 
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    transition: all 0.07s;
+    text-shadow:0 0 5px black ;
+}
+.playing {
+    border: 2px solid gold;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px gold;
+}
